@@ -1,0 +1,22 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Arquivos gerados localmente para a gravação
+*.pdf
+
+# Material de vídeo — nunca versionar no repositório de roteiros
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+gravacoes/
+exports/

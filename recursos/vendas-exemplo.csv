@@ -1,0 +1,53 @@
+data_pedido,pedido_id,canal,sku,produto,categoria,quantidade,preco_unitario,receita,uf
+2026-06-02,2000101,Mercado Livre,CAP-SIL-14,Capa Silicone iPhone 14,Capas,2,49.90,99.80,SP
+2026-06-03,2000102,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,3,24.90,74.70,MG
+2026-06-04,2000103,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,1,189.90,189.90,RJ
+2026-06-05,2000104,Mercado Livre,CAP-SIL-14,Capa Silicone iPhone 14,Capas,3,49.90,149.70,SP
+2026-06-06,2000105,Shopee,PEL-VID-15,Pelicula Vidro iPhone 15,Peliculas,2,27.90,55.80,PR
+2026-06-08,2000106,Mercado Livre,CAR-20W,Carregador Turbo 20W,Carregadores,1,79.90,79.90,SP
+2026-06-09,2000107,Shopee,CAP-SIL-14,Capa Silicone iPhone 14,Capas,4,39.90,159.60,BA
+2026-06-10,2000108,Mercado Livre,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,2,29.90,59.80,RS
+2026-06-11,2000109,Mercado Livre,CAP-SIL-14,Capa Silicone iPhone 14,Capas,2,49.90,99.80,SC
+2026-06-12,2000110,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,5,24.90,124.50,SP
+2026-06-13,2000111,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,1,189.90,189.90,MG
+2026-06-15,2000112,Shopee,CAR-20W,Carregador Turbo 20W,Carregadores,1,69.90,69.90,GO
+2026-06-16,2000113,Mercado Livre,CAP-SIL-14,Capa Silicone iPhone 14,Capas,3,49.90,149.70,SP
+2026-06-17,2000114,Shopee,PEL-VID-15,Pelicula Vidro iPhone 15,Peliculas,3,27.90,83.70,CE
+2026-06-18,2000115,Mercado Livre,CAR-20W,Carregador Turbo 20W,Carregadores,2,79.90,159.80,RJ
+2026-06-19,2000116,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,4,24.90,99.60,PE
+2026-06-20,2000117,Mercado Livre,CAP-SIL-14,Capa Silicone iPhone 14,Capas,2,49.90,99.80,SP
+2026-06-22,2000118,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,2,189.90,379.80,SP
+2026-06-23,2000119,Shopee,CAP-SIL-14,Capa Silicone iPhone 14,Capas,3,39.90,119.70,MG
+2026-06-24,2000120,Mercado Livre,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,3,29.90,89.70,PR
+2026-06-25,2000121,Shopee,PEL-VID-15,Pelicula Vidro iPhone 15,Peliculas,2,27.90,55.80,SP
+2026-06-26,2000122,Mercado Livre,CAR-20W,Carregador Turbo 20W,Carregadores,1,79.90,79.90,BA
+2026-06-27,2000123,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,6,24.90,149.40,SP
+2026-06-29,2000124,Mercado Livre,CAP-SIL-14,Capa Silicone iPhone 14,Capas,2,49.90,99.80,RJ
+2026-06-30,2000125,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,1,189.90,189.90,SP
+2026-07-01,2000126,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,2,189.90,379.80,SP
+2026-07-02,2000127,Shopee,SUP-VEIC,Suporte Veicular Magnetico,Acessorios,1,59.90,59.90,MG
+2026-07-03,2000128,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,1,189.90,189.90,RS
+2026-07-04,2000129,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,5,24.90,124.50,SP
+2026-07-06,2000130,Mercado Livre,SUP-VEIC,Suporte Veicular Magnetico,Acessorios,2,69.90,139.80,SP
+2026-07-07,2000131,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,3,189.90,569.70,RJ
+2026-07-08,2000132,Shopee,PEL-VID-15,Pelicula Vidro iPhone 15,Peliculas,3,27.90,83.70,PR
+2026-07-09,2000133,Mercado Livre,CAR-20W,Carregador Turbo 20W,Carregadores,2,79.90,159.80,SP
+2026-07-10,2000134,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,4,24.90,99.60,BA
+2026-07-11,2000135,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,2,189.90,379.80,MG
+2026-07-13,2000136,Shopee,CAP-SIL-14,Capa Silicone iPhone 14,Capas,1,39.90,39.90,SP
+2026-07-14,2000137,Mercado Livre,SUP-VEIC,Suporte Veicular Magnetico,Acessorios,2,69.90,139.80,SC
+2026-07-15,2000138,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,2,189.90,379.80,SP
+2026-07-16,2000139,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,6,24.90,149.40,PE
+2026-07-17,2000140,Mercado Livre,CAR-20W,Carregador Turbo 20W,Carregadores,1,79.90,79.90,RJ
+2026-07-18,2000141,Shopee,PEL-VID-15,Pelicula Vidro iPhone 15,Peliculas,2,27.90,55.80,SP
+2026-07-20,2000142,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,3,189.90,569.70,SP
+2026-07-21,2000143,Shopee,SUP-VEIC,Suporte Veicular Magnetico,Acessorios,2,59.90,119.80,GO
+2026-07-22,2000144,Mercado Livre,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,3,29.90,89.70,SP
+2026-07-23,2000145,Mercado Livre,CAP-SIL-14,Capa Silicone iPhone 14,Capas,1,49.90,49.90,MG
+2026-07-24,2000146,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,5,24.90,124.50,CE
+2026-07-25,2000147,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,2,189.90,379.80,RJ
+2026-07-26,2000148,Mercado Livre,SUP-VEIC,Suporte Veicular Magnetico,Acessorios,1,69.90,69.90,SP
+2026-07-27,2000149,Shopee,PEL-VID-15,Pelicula Vidro iPhone 15,Peliculas,4,27.90,111.60,SP
+2026-07-27,2000150,Mercado Livre,CAR-20W,Carregador Turbo 20W,Carregadores,2,79.90,159.80,PR
+2026-07-28,2000151,Mercado Livre,FON-TWS-PRO,Fone Bluetooth TWS Pro,Audio,1,189.90,189.90,SP
+2026-07-28,2000152,Shopee,CAB-USBC-1M,Cabo USB-C 1m Reforcado,Cabos,4,24.90,99.60,MG
