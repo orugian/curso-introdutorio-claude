@@ -11,17 +11,29 @@ O curso é **introdutório**. A régua de cada bloco é sempre a mesma:
 
 ## Os vídeos
 
-| Módulo | Vídeo | Tema | Alvo |
-|--------|-------|------|------|
-| 02 — Chat | [A](02-chat/A-visao-geral.md) | Visão geral | 9 min |
-| 02 — Chat | [B](02-chat/B-mao-na-massa.md) | Mão na massa | 10 min |
-| 03 — Cowork | [A](03-cowork/A-visao-geral.md) | Visão geral | 8 min |
-| 03 — Cowork | [B](03-cowork/B-mao-na-massa.md) | Mão na massa | 9 min |
-| 05 — Skills | [A](05-skills/A-visao-geral.md) | Visão geral | 8 min |
-| 05 — Skills | [B](05-skills/B-mao-na-massa.md) | Mão na massa | 9 min |
+Cada vídeo tem **dois documentos**: o **roteiro**, para preparar a gravação, e o
+**script**, com a fala palavra por palavra e a tela de cada passagem.
+
+| Módulo | Vídeo | Roteiro (preparar) | Script (gravar) | Alvo |
+|--------|-------|--------------------|-----------------|------|
+| 02 — Chat | A · Visão geral | [roteiro](02-chat/A-visao-geral.md) | [script](scripts/chat-A.md) | 9 min |
+| 02 — Chat | B · Mão na massa | [roteiro](02-chat/B-mao-na-massa.md) | [script](scripts/chat-B.md) | 10 min |
+| 03 — Cowork | A · Visão geral | [roteiro](03-cowork/A-visao-geral.md) | [script](scripts/cowork-A.md) | 8 min |
+| 03 — Cowork | B · Mão na massa | [roteiro](03-cowork/B-mao-na-massa.md) | [script](scripts/cowork-B.md) | 9 min |
+| 05 — Skills | A · Visão geral | [roteiro](05-skills/A-visao-geral.md) | [script](scripts/skills-A.md) | 8 min |
+| 05 — Skills | B · Mão na massa | [roteiro](05-skills/B-mao-na-massa.md) | [script](scripts/skills-B.md) | 9 min |
 
 **Vídeo A** apresenta os conceitos do módulo, com exemplos curtos.
 **Vídeo B** faz uma coisa só, do começo ao fim, na tela.
+
+### Qual documento usar quando
+
+1. **Antes de gravar** — abra o **roteiro**: checklist de preparação, prompts
+   para copiar, plano B e notas de edição.
+2. **Durante a gravação** — abra o **script**: a fala completa, com a tela
+   indicada em cada passagem.
+
+Veja [`scripts/README.md`](scripts/README.md) para as convenções de leitura.
 
 ---
 
