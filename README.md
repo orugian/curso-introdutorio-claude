@@ -76,10 +76,11 @@ correspondência está no topo de cada arquivo.
 
 ## Recursos
 
-| Arquivo | Usado em |
-|---------|----------|
-| [`recursos/vendas-exemplo.csv`](recursos/vendas-exemplo.csv) | Chat B |
-| [`recursos/guia-de-estilo-tiops.md`](recursos/guia-de-estilo-tiops.md) | Chat B |
+| Arquivo | Usado em | Observação |
+|---------|----------|------------|
+| [`recursos/vendas-exemplo.csv`](recursos/vendas-exemplo.csv) | Chat B, cena 9 | Deixe na pasta Downloads |
+| [`recursos/guia-de-estilo-tiops.md`](recursos/guia-de-estilo-tiops.md) | Chat B, cena 4 | **Exporte para PDF antes de gravar** |
+| [`recursos/exemplo-SKILL.md`](recursos/exemplo-SKILL.md) | Skills A, cena 6 | Abra no editor com fonte 16pt+ |
 
 ---
 

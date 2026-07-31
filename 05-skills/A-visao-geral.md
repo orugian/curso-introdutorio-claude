@@ -8,8 +8,32 @@
 
 - [ ] Deck aberto no slide 1
 - [ ] Claude aberto com a área de Skills visível
-- [ ] Pelo menos **uma skill já instalada** para mostrar funcionando
-- [ ] Um arquivo `SKILL.md` aberto no editor, para mostrar a estrutura
+- [ ] [`recursos/exemplo-SKILL.md`](../recursos/exemplo-SKILL.md) aberto no
+      editor, fonte 16pt ou maior (é a mesma skill que você escreve no vídeo B)
+- [ ] **Skill da demonstração escolhida e ensaiada** — veja abaixo
+
+### Qual skill usar na demonstração
+
+Use uma **skill de criação de documento** (apresentação ou planilha): ela ativa
+sozinha a partir do pedido, que é o ponto da cena, e o resultado é visível.
+
+**Ensaie antes de gravar** com este prompt:
+
+```
+Monta uma apresentação de 5 slides explicando para a equipe comercial
+o que muda com a adoção de IA no atendimento ao cliente.
+```
+
+Alternativa, se essa não ativar:
+
+```
+Gera uma planilha de controle de horas por projeto, com uma aba de
+lançamentos e uma aba de resumo mensal por colaborador.
+```
+
+Se nenhuma ativar sozinha, **pule a demonstração** e vá do slide 3 direto para
+o slide 4. Chamar a skill pelo nome destrói o argumento da cena, que é
+justamente ela entrar sem ser chamada.
 
 ---
 

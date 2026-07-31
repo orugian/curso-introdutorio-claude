@@ -82,13 +82,38 @@
 ## 5 · Uma skill funcionando
 **🖥️ TELA** — conversa nova &nbsp;&nbsp; ⏱️ 3:20 – 4:10
 
-> **[faz um pedido que aciona a skill instalada]**
+> ### ⚠️ Qual skill usar aqui
 >
-> Repara no que eu escrevi: eu não chamei a skill pelo nome. Eu não falei "usa a skill tal". Eu só descrevi o que eu queria.
+> Use uma **skill de criação de documento** (apresentação ou planilha). Motivo:
+> ela ativa sozinha a partir do pedido, que é exatamente o ponto desta cena, e o
+> resultado é um arquivo visível na tela.
 >
-> **[quando a skill for acionada]** E olha aí — ela entrou sozinha. Ele reconheceu o assunto e carregou as instruções.
+> **Confira antes de gravar:** abra a área de Skills e veja o que está
+> disponível na sua conta. Rode o prompt uma vez em ensaio — você precisa saber
+> que ela ativa antes de apertar REC.
 >
-> **[mostra o resultado]** E o resultado já vem no formato que a skill define, sem eu ter pedido formato nenhum.
+> **Prompt (cole na conversa):**
+> ```
+> Monta uma apresentação de 5 slides explicando para a equipe comercial
+> o que muda com a adoção de IA no atendimento ao cliente.
+> ```
+> **Alternativa,** se a de apresentação não ativar:
+> ```
+> Gera uma planilha de controle de horas por projeto, com uma aba de
+> lançamentos e uma aba de resumo mensal por colaborador.
+> ```
+> **Se nenhuma ativar:** instale uma skill pronta antes de gravar, ou pule esta
+> cena e vá direto para a 6 — o vídeo continua fazendo sentido, você só perde a
+> demonstração. Não improvise chamando a skill pelo nome, porque isso destrói
+> justamente o argumento da cena.
+
+> **[cola o prompt e envia]**
+>
+> Repara no que eu escrevi: eu não chamei a skill pelo nome. Eu não falei "usa a skill tal". Eu só descrevi o que eu queria — uma apresentação pra equipe comercial.
+>
+> **[quando a skill for acionada]** E olha aí — ela entrou sozinha. Ele reconheceu o assunto e carregou as instruções de como montar uma apresentação.
+>
+> **[mostra o resultado]** E o resultado já vem estruturado: divisão de slides, títulos, hierarquia. Eu não pedi nada disso. Não falei quantas linhas por slide, nem que ordem seguir.
 >
 > É esse o ganho. A skill carrega o padrão por você.
 
@@ -96,6 +121,15 @@
 
 ## 6 · Como é por dentro
 **🖥️ SLIDE 4** por ~10s → **🖥️ EDITOR** — arquivo `SKILL.md` aberto &nbsp;&nbsp; ⏱️ 4:10 – 5:20
+
+> ### 📎 Qual arquivo abrir
+>
+> Abra o [`recursos/exemplo-SKILL.md`](../recursos/exemplo-SKILL.md) deste
+> repositório. É a skill `revisor-comunicado` — **a mesma que você vai escrever
+> do zero no vídeo B**, o que dá continuidade entre os dois.
+>
+> **Antes de gravar:** aumente a fonte do editor para no mínimo 16pt e deixe o
+> arquivo já aberto, sem precisar navegar por pastas na tela.
 
 > Agora deixa eu abrir o capô, porque no próximo vídeo você vai escrever uma dessas.
 >

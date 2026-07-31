@@ -64,6 +64,18 @@
 ## 4 · A base de conhecimento
 **🖥️ TELA** — arrastando o PDF para a base &nbsp;&nbsp; ⏱️ 2:50 – 3:40
 
+> ### 📎 Qual arquivo é esse
+>
+> É o [`recursos/guia-de-estilo-tiops.md`](../recursos/guia-de-estilo-tiops.md)
+> deste repositório — um guia de redação corporativa fictício, escrito para o curso.
+>
+> Ele nasce em Markdown. **Exporte para PDF antes de gravar** (VS Code com a
+> extensão *Markdown PDF*, ou cole no Word e salve como PDF) e deixe na pasta
+> Downloads. Em vídeo, subir um PDF é mais convincente que subir um `.md`.
+>
+> Se preferir não converter, pode subir o `.md` direto — a base de conhecimento
+> aceita Markdown e a fala continua válida.
+
 > Agora o segundo campo: a base de conhecimento. **[arrasta o PDF]**
 >
 > Vou subir um arquivo só: o guia de redação da empresa. **[o arquivo aparece na lista]**
