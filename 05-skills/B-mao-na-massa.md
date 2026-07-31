@@ -8,10 +8,29 @@ Uma skill do zero: **revisor de comunicado interno.**
 
 ## Preparação
 
-- [ ] Editor de texto aberto (VS Code ou similar), fonte grande
+- [ ] Editor de texto aberto (VS Code ou similar), **fonte 16pt ou maior**
 - [ ] Claude aberto na área de Skills
-- [ ] Texto de teste copiado em bloco de notas
-- [ ] Ensaie a criação uma vez antes — você precisa saber onde salvar a skill na sua conta
+- [ ] [`recursos/cena8-colar.txt`](../recursos/cena8-colar.txt) aberto para copiar
+- [ ] [`recursos/skill-revisor-comunicado.md`](../recursos/skill-revisor-comunicado.md)
+      aberto **numa janela que não aparece na gravação** — é de onde você copia
+      os blocos da cena 5
+- [ ] ⚠️ **A skill `revisor-comunicado` NÃO pode estar instalada** na conta.
+      Se estiver de uma gravação anterior, remova antes.
+- [ ] Ensaie a instalação uma vez — você precisa saber onde clicar
+
+### A skill deste vídeo
+
+Diferente do vídeo A, aqui **você não instala nada pronto**: escreve a
+`revisor-comunicado` do zero na tela.
+
+O texto de cada cena está dentro do
+[script](../scripts/skills-B.md), no bloco **✍️ Texto desta cena**. O arquivo
+final completo, para conferir, é o
+[`recursos/skill-revisor-comunicado.md`](../recursos/skill-revisor-comunicado.md).
+
+**Digitar ou colar:** digite as partes curtas (cenas 2, 4 e 6) — o aluno precisa
+ver nascendo. Cole a cena 5, que é longa, em três blocos comentados. Digitar as
+instruções inteiras dá quase 2 min de tela morta.
 
 ---
 

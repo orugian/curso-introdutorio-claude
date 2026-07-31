@@ -83,7 +83,8 @@ correspondência está no topo de cada arquivo.
 | [`recursos/skill-demo-resumo-reuniao/`](recursos/skill-demo-resumo-reuniao/) | Skills A, cenas 5 e 6 | **Instale na conta de gravação** — [como instalar](recursos/skill-demo-resumo-reuniao/README.md) |
 | [`recursos/cena5-colar.txt`](recursos/cena5-colar.txt) | Skills A, cena 5 | **Copie inteiro e cole** — pedido + anotações |
 | [`recursos/anotacoes-reuniao.md`](recursos/anotacoes-reuniao.md) | Skills A, cena 5 | Só a explicação de por que as anotações são assim |
-| [`recursos/skill-revisor-comunicado.md`](recursos/skill-revisor-comunicado.md) | Skills B | Referência do que você escreve ao vivo |
+| [`recursos/cena8-colar.txt`](recursos/cena8-colar.txt) | Skills B, cenas 8 e 9 | **Copie inteiro e cole** — texto de teste |
+| [`recursos/skill-revisor-comunicado.md`](recursos/skill-revisor-comunicado.md) | Skills B | Arquivo final, para conferir e copiar os blocos |
 
 > ⚠️ **Gravando em outra conta?** O único item que precisa ser instalado na
 > conta de gravação é a skill `resumo-reuniao`. O resto são arquivos que você

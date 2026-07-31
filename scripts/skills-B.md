@@ -36,6 +36,21 @@
 ## 2 · O cabeçalho
 **🖥️ EDITOR** — arquivo novo, fonte grande &nbsp;&nbsp; ⏱️ 0:30 – 1:20
 
+> ### ✍️ Texto desta cena — **digite**
+>
+> ```yaml
+> ---
+> name: revisor-comunicado
+> description: Use quando o usuário pedir revisão de um comunicado interno,
+>   e-mail corporativo, aviso ou circular antes do envio.
+> ```
+>
+> São só 4 linhas — **digite mesmo**, o aluno precisa ver nascendo. O `---` de
+> fechamento vem no fim da cena 3.
+>
+> ⚠️ A quebra da segunda linha da `description` precisa de **2 espaços de
+> indentação**, senão o YAML não valida.
+
 > **[cria o arquivo SKILL.md]** Arquivo novo, chamado SKILL ponto MD.
 >
 > **[escreve os três tracinhos e o name]** Começa com esses três tracinhos, que abrem o cabeçalho.
@@ -48,6 +63,15 @@
 
 ## 3 · A descrição
 **🖥️ EDITOR + ZOOM** — linha `description` &nbsp;&nbsp; ⏱️ 1:20 – 2:10
+
+> ### ✍️ Texto desta cena — **digite ao final**
+>
+> Nada novo até o fim da cena. Aqui você só **comenta** a linha que já escreveu,
+> com zoom nela. No último segundo, fecha o cabeçalho:
+>
+> ```yaml
+> ---
+> ```
 
 > Olha o que eu escrevi: "use quando o usuário pedir revisão de um comunicado interno, e-mail corporativo, aviso ou circular antes do envio".
 >
@@ -66,6 +90,16 @@
 ## 4 · Quando usar
 **🖥️ EDITOR** &nbsp;&nbsp; ⏱️ 2:10 – 2:50
 
+> ### ✍️ Texto desta cena — **digite**
+>
+> ```markdown
+> # Revisor de Comunicado Interno
+>
+> ## Quando usar
+> - O usuário colou um texto e pediu revisão, ajuste ou opinião
+> - O texto é uma comunicação interna: comunicado, e-mail, aviso, circular
+> ```
+
 > **[escreve o título e a seção "Quando usar"]**
 >
 > Agora sai do cabeçalho e começa o corpo, que é markdown normal.
@@ -80,6 +114,34 @@
 
 ## 5 · As instruções
 **🖥️ EDITOR** &nbsp;&nbsp; ⏱️ 2:50 – 4:10
+
+> ### ✍️ Texto desta cena — **cole em 3 partes**
+>
+> A cena mais longa. Digitar isso inteiro dá quase 2 minutos de tela morta.
+> **Cole em blocos**, comentando cada um enquanto aparece.
+>
+> **Bloco 1** — cole e comente:
+> ```markdown
+> ## Instruções
+>
+> 1. Verifique se o texto responde a três perguntas, nesta ordem:
+>    o que muda, a partir de quando, e o que o leitor precisa fazer.
+> ```
+>
+> **Bloco 2** — cole e comente (é onde está o argumento da cena):
+> ```markdown
+> 2. Aponte todo jargão desnecessário: "vimos por meio desta",
+>    "no que tange a", "sendo certo que", "do corrente mês".
+> ```
+>
+> **Bloco 3** — cole e comente:
+> ```markdown
+> 3. Verifique se as datas estão por extenso e se há bloco de próximos passos.
+> 4. Responda sempre em 3 seções, nesta ordem:
+>    - **Problemas** (no máximo 5, os mais importantes)
+>    - **Sugestão** (o texto reescrito, pronto para enviar)
+>    - **Nota** (1 a 10, com justificativa de 1 linha)
+> ```
 
 > **[escreve a seção Instruções]**
 >
@@ -98,6 +160,20 @@
 ## 6 · O que evitar
 **🖥️ EDITOR + ZOOM** — seção "O que evitar" &nbsp;&nbsp; ⏱️ 4:10 – 4:50
 
+> ### ✍️ Texto desta cena — **digite**
+>
+> ```markdown
+> ## O que evitar
+> - Não invente problema. Se o texto está bom, diga que está bom.
+> - Não mude o tom original sem motivo.
+> - Não deixe o texto reescrito mais longo que o original.
+> ```
+>
+> Três linhas, digite. **Salve o arquivo ao final da cena.**
+>
+> ✅ Arquivo completo para conferir:
+> [`recursos/skill-revisor-comunicado.md`](../recursos/skill-revisor-comunicado.md)
+
 > **[escreve a seção]**
 >
 > E a última seção, que eu coloco em toda skill que escrevo: o que evitar.
@@ -115,6 +191,16 @@
 ## 7 · Instalando
 **🖥️ TELA** — área de Skills &nbsp;&nbsp; ⏱️ 4:50 – 5:40
 
+> ### 🎬 O que fazer
+>
+> Sem texto novo. Você instala o `SKILL.md` que acabou de escrever, do mesmo
+> jeito que instalou a `resumo-reuniao` antes do vídeo A — o passo a passo está
+> no [README da skill de demonstração](../recursos/skill-demo-resumo-reuniao/README.md).
+>
+> ⚠️ **Ensaie a instalação antes de gravar.** Você precisa saber onde clicar.
+> E confira que a `revisor-comunicado` **não está** instalada de antes, senão a
+> cena mostra uma skill que já existia.
+
 > Agora eu preciso colocar ela pra funcionar.
 >
 > **[adiciona a skill na conta]** É aqui que eu adiciono.
@@ -127,6 +213,30 @@
 
 ## 8 · Testando
 **🖥️ TELA** — conversa nova &nbsp;&nbsp; ⏱️ 5:40 – 6:50
+
+> ### 📋 Texto desta cena — **cole inteiro**
+>
+> Arquivo pronto: [`recursos/cena8-colar.txt`](../recursos/cena8-colar.txt).
+> Copie tudo e cole numa conversa nova, **fora de qualquer Projeto**.
+>
+> ```
+> Revisa esse comunicado.
+>
+> Prezados, vimos por meio desta informar que no que tange ao estacionamento
+> do prédio, a partir do dia 20 do corrente mês as vagas passarão a ser
+> rotativas, sendo certo que a não observância poderá acarretar em remoção
+> do veículo.
+> ```
+>
+> **Não faça:** citar o nome da skill, pedir formato, pedir as três seções.
+>
+> **O que deve aparecer:**
+> - Seção **Problemas** — com "vimos por meio desta", "no que tange" e "do corrente mês"
+> - Seção **Sugestão** — o comunicado reescrito
+> - Seção **Nota** — de 1 a 10, com justificativa de 1 linha
+>
+> Os três jargões estão plantados no texto de propósito: são exatamente os que
+> você listou no passo 2 das instruções, na cena 5.
 
 > Vamos testar. **[abre conversa nova e cola o texto de teste]**
 >
@@ -148,6 +258,24 @@
 
 ## 9 · Ajustando
 **🖥️ EDITOR** → **🖥️ TELA** &nbsp;&nbsp; ⏱️ 6:50 – 7:50
+
+> ### ✍️ Texto desta cena
+>
+> **1) No editor**, acrescente esta linha no fim da seção `## O que evitar`:
+> ```markdown
+> - Sempre sugira um assunto de e-mail melhor que o atual.
+> ```
+>
+> **2) Salve e recarregue a skill** na conta (mesmo caminho da cena 7).
+>
+> **3) Na conversa**, cole **o mesmo texto da cena 8** de novo
+> ([`recursos/cena8-colar.txt`](../recursos/cena8-colar.txt)).
+>
+> **O que muda:** agora a resposta traz também uma sugestão de assunto de
+> e-mail. É o antes/depois que prova o ponto da cena.
+>
+> ⚠️ Use **conversa nova** para o segundo teste. Na mesma conversa ele pode
+> responder pelo contexto anterior, e aí você não sabe se foi a regra nova.
 
 > E agora o quarto passo, o que quase todo mundo pula.
 >
