@@ -81,7 +81,8 @@ correspondência está no topo de cada arquivo.
 | [`recursos/vendas-exemplo.csv`](recursos/vendas-exemplo.csv) | Chat B, cena 9 | Deixe na pasta Downloads |
 | [`recursos/guia-de-estilo-tiops.md`](recursos/guia-de-estilo-tiops.md) | Chat B, cena 4 | **Exporte para PDF antes de gravar** |
 | [`recursos/skill-demo-resumo-reuniao/`](recursos/skill-demo-resumo-reuniao/) | Skills A, cenas 5 e 6 | **Instale na conta de gravação** — [como instalar](recursos/skill-demo-resumo-reuniao/README.md) |
-| [`recursos/anotacoes-reuniao.md`](recursos/anotacoes-reuniao.md) | Skills A, cena 5 | Entrada da demonstração |
+| [`recursos/cena5-colar.txt`](recursos/cena5-colar.txt) | Skills A, cena 5 | **Copie inteiro e cole** — pedido + anotações |
+| [`recursos/anotacoes-reuniao.md`](recursos/anotacoes-reuniao.md) | Skills A, cena 5 | Só a explicação de por que as anotações são assim |
 | [`recursos/skill-revisor-comunicado.md`](recursos/skill-revisor-comunicado.md) | Skills B | Referência do que você escreve ao vivo |
 
 > ⚠️ **Gravando em outra conta?** O único item que precisa ser instalado na

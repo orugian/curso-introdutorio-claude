@@ -11,8 +11,8 @@
 - [ ] **Skill `resumo-reuniao` instalada na conta de gravação** — veja abaixo
 - [ ] [`recursos/skill-demo-resumo-reuniao/SKILL.md`](../recursos/skill-demo-resumo-reuniao/SKILL.md)
       aberto no editor, fonte 16pt ou maior
-- [ ] [`recursos/anotacoes-reuniao.md`](../recursos/anotacoes-reuniao.md) copiado
-      em bloco de notas
+- [ ] [`recursos/cena5-colar.txt`](../recursos/cena5-colar.txt) aberto e pronto
+      para copiar inteiro (pedido + anotações numa colagem só)
 
 ### A skill da demonstração
 

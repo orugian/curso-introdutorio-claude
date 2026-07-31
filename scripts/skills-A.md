@@ -91,17 +91,28 @@
 > [README da pasta](../recursos/skill-demo-resumo-reuniao/README.md) tem o
 > passo a passo para claude.ai e para o Claude Code.
 >
-> **Entrada da demonstração:** copie o conteúdo de
-> [`recursos/anotacoes-reuniao.md`](../recursos/anotacoes-reuniao.md) — só o que
-> vem depois da linha divisória — e cole precedido de:
+> ### 🎬 A interação, passo a passo
 >
-> ```
-> Resume essa reunião pra mim.
-> ```
+> 1. **Conversa nova, fora de qualquer Projeto.** Dentro de um Projeto as
+>    instruções fixas competem com a skill e embaralham a demonstração.
+> 2. Abra [`recursos/cena5-colar.txt`](../recursos/cena5-colar.txt), selecione
+>    **tudo** e copie. O pedido já vem junto das anotações — é uma colagem só.
+> 3. Cole no campo de mensagem e **envie**. Não digite nada além disso.
+> 4. Enquanto responde, **não toque no mouse** — a fala já cobre a espera.
 >
-> **Ensaie uma vez antes do REC.** O argumento da cena depende de ela ativar
-> sozinha na tela. Se vier resumo em texto corrido, a skill não foi acionada —
-> confira se está ativa na conta antes de gravar.
+> **Não faça:** citar o nome da skill, pedir formato, pedir seções, dizer
+> "usando a skill de reunião". Qualquer uma dessas coisas invalida a cena.
+>
+> **O que deve aparecer:**
+> - Se a interface indicar que uma skill foi usada, **aponte** — é a prova visual
+> - Seção de **Decisões**
+> - Seção de **Pendências**, em tabela, com responsável e prazo
+> - Pelo menos um responsável marcado como **"não definido"** ← aponte este
+> - Seção **Ficou para depois**
+> - Uma linha de **Risco** no fim
+>
+> **Ensaie uma vez antes do REC.** Se vier resumo em texto corrido, a skill não
+> foi acionada — confira se está ativa na conta antes de gravar.
 >
 > **Se não ativar de jeito nenhum:** pule para a cena 6. O vídeo continua
 > fazendo sentido, você só perde a demonstração. Não chame a skill pelo nome
