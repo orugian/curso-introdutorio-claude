@@ -11,8 +11,8 @@
 | 2 | O que é uma Skill | SLIDE 2 — "4.1 O que são Skills" |
 | 3 | Prompt, Projeto e Skill | SLIDE 2 |
 | 4 | Skills prontas | SLIDE 3 → TELA — área de Skills |
-| 5 | Uma skill funcionando | TELA — conversa |
-| 6 | Como é por dentro | SLIDE 4 → EDITOR — SKILL.md |
+| 5 | Uma skill funcionando | TELA — conversa (skill `resumo-reuniao`) |
+| 6 | Como é por dentro | SLIDE 4 → EDITOR — `skill-demo-resumo-reuniao/SKILL.md` |
 | 7 | A descrição | EDITOR + ZOOM |
 | 8 | Onde isso chega | SLIDE 7 — "4.6 Criando Agentes Autônomos" |
 | 9 | Fecho | SLIDE 2 |
@@ -82,40 +82,42 @@
 ## 5 · Uma skill funcionando
 **🖥️ TELA** — conversa nova &nbsp;&nbsp; ⏱️ 3:20 – 4:10
 
-> ### ⚠️ Qual skill usar aqui
+> ### ⚠️ Instale a skill antes de gravar
 >
-> Use uma **skill de criação de documento** (apresentação ou planilha). Motivo:
-> ela ativa sozinha a partir do pedido, que é exatamente o ponto desta cena, e o
-> resultado é um arquivo visível na tela.
+> Use a skill que está no repositório:
+> [`recursos/skill-demo-resumo-reuniao/`](../recursos/skill-demo-resumo-reuniao/)
 >
-> **Confira antes de gravar:** abra a área de Skills e veja o que está
-> disponível na sua conta. Rode o prompt uma vez em ensaio — você precisa saber
-> que ela ativa antes de apertar REC.
+> Ela é nossa — instale em qualquer conta, inclusive a de gravação. O
+> [README da pasta](../recursos/skill-demo-resumo-reuniao/README.md) tem o
+> passo a passo para claude.ai e para o Claude Code.
 >
-> **Prompt (cole na conversa):**
+> **Entrada da demonstração:** copie o conteúdo de
+> [`recursos/anotacoes-reuniao.md`](../recursos/anotacoes-reuniao.md) — só o que
+> vem depois da linha divisória — e cole precedido de:
+>
 > ```
-> Monta uma apresentação de 5 slides explicando para a equipe comercial
-> o que muda com a adoção de IA no atendimento ao cliente.
+> Resume essa reunião pra mim.
 > ```
-> **Alternativa,** se a de apresentação não ativar:
-> ```
-> Gera uma planilha de controle de horas por projeto, com uma aba de
-> lançamentos e uma aba de resumo mensal por colaborador.
-> ```
-> **Se nenhuma ativar:** instale uma skill pronta antes de gravar, ou pule esta
-> cena e vá direto para a 6 — o vídeo continua fazendo sentido, você só perde a
-> demonstração. Não improvise chamando a skill pelo nome, porque isso destrói
-> justamente o argumento da cena.
+>
+> **Ensaie uma vez antes do REC.** O argumento da cena depende de ela ativar
+> sozinha na tela. Se vier resumo em texto corrido, a skill não foi acionada —
+> confira se está ativa na conta antes de gravar.
+>
+> **Se não ativar de jeito nenhum:** pule para a cena 6. O vídeo continua
+> fazendo sentido, você só perde a demonstração. Não chame a skill pelo nome
+> como saída — isso destrói justamente o argumento.
 
-> **[cola o prompt e envia]**
+> **[cola o pedido junto com as anotações e envia]**
 >
-> Repara no que eu escrevi: eu não chamei a skill pelo nome. Eu não falei "usa a skill tal". Eu só descrevi o que eu queria — uma apresentação pra equipe comercial.
+> Repara no que eu escrevi: eu não chamei a skill pelo nome. Eu não falei "usa a skill tal". Eu colei minhas anotações e pedi um resumo, do jeito que qualquer pessoa pediria.
 >
-> **[quando a skill for acionada]** E olha aí — ela entrou sozinha. Ele reconheceu o assunto e carregou as instruções de como montar uma apresentação.
+> **[quando a skill for acionada]** E olha aí — ela entrou sozinha. Ele reconheceu o assunto e carregou as instruções.
 >
-> **[mostra o resultado]** E o resultado já vem estruturado: divisão de slides, títulos, hierarquia. Eu não pedi nada disso. Não falei quantas linhas por slide, nem que ordem seguir.
+> **[percorre o resultado]** E olha o que voltou. Decisões de um lado, pendências do outro. As pendências numa tabela, com responsável e prazo. E aqui embaixo, o que ficou para depois.
 >
-> É esse o ganho. A skill carrega o padrão por você.
+> **[aponta uma pendência sem responsável]** E repara nesse detalhe: está escrito "não definido". A skill manda ele não inventar responsável quando a anotação não diz quem ficou com a tarefa. Porque essa lacuna é justamente o que precisa aparecer numa ata.
+>
+> Eu não pedi nada disso. Não falei de seção, nem de tabela, nem de coluna. A skill carregou o padrão por mim.
 
 ---
 
@@ -124,14 +126,15 @@
 
 > ### 📎 Qual arquivo abrir
 >
-> Abra o [`recursos/exemplo-SKILL.md`](../recursos/exemplo-SKILL.md) deste
-> repositório. É a skill `revisor-comunicado` — **a mesma que você vai escrever
-> do zero no vídeo B**, o que dá continuidade entre os dois.
+> Abra o [`recursos/skill-demo-resumo-reuniao/SKILL.md`](../recursos/skill-demo-resumo-reuniao/SKILL.md)
+> — **é o arquivo da skill que acabou de rodar na cena 5**. Mostrar o mesmo
+> exemplo nas duas cenas fecha o raciocínio: primeiro o aluno vê funcionando,
+> agora ele vê do que era feito.
 >
-> **Antes de gravar:** aumente a fonte do editor para no mínimo 16pt e deixe o
-> arquivo já aberto, sem precisar navegar por pastas na tela.
+> **Antes de gravar:** fonte do editor em 16pt ou mais, arquivo já aberto, sem
+> precisar navegar por pastas na tela.
 
-> Agora deixa eu abrir o capô, porque no próximo vídeo você vai escrever uma dessas.
+> Agora deixa eu abrir o capô. Aquela skill que acabou de rodar — deixa eu te mostrar o que tem dentro dela.
 >
 > **[abre o SKILL.md no editor]** Uma skill é um arquivo de texto. Só isso. Chama SKILL ponto MD e tem três partes.
 >
@@ -139,7 +142,9 @@
 >
 > **[aponta a seção "quando usar"]** Segunda parte: quando usar. Os gatilhos, escritos em português mesmo — em que situação essa skill deve entrar.
 >
-> **[aponta as instruções]** E terceira: as instruções. O passo a passo do que fazer, numerado, do jeito que você explicaria pra alguém que chegou agora.
+> **[aponta as instruções]** E terceira: as instruções. O passo a passo do que fazer, numerado, do jeito que você explicaria pra alguém que chegou agora. **[aponta o bloco das três seções]** Olha aqui: é daqui que veio aquele formato que apareceu na tela.
+>
+> **[rola até "O que evitar"]** E tem essa seção no final, "o que evitar", que eu coloco em toda skill que escrevo. **[aponta a regra]** É essa linha aqui que fez ele escrever "não definido" em vez de chutar um responsável.
 >
 > Dá pra anexar arquivo de referência e até script junto, mas isso é assunto avançado. Pra começar, é texto.
 
@@ -152,13 +157,15 @@
 >
 > **[destaca a linha da descrição]** Essa linha aqui, a descrição.
 >
-> Olha o que está escrito: "use quando o usuário pedir revisão de um comunicado interno, e-mail corporativo ou aviso antes do envio".
+> Olha o que está escrito: "use quando o usuário pedir para resumir uma reunião, transformar anotações em ata, ou extrair decisões e pendências de um encontro".
 >
 > Repara que ela não descreve o que a skill faz. Ela descreve **quando usar**.
 >
+> E foi por isso que ela entrou sozinha agora há pouco: eu falei "resume essa reunião", e isso bate com a situação descrita aqui.
+>
 > Essa é a diferença entre uma skill que entra sozinha e uma que fica lá parada, esperando você lembrar dela.
 >
-> Se você escrever "revisa textos", ele não vai saber reconhecer o momento. Se você escrever a situação, ele reconhece.
+> Se você escrever "resume reuniões", ele não reconhece o momento com a mesma facilidade. Se você escrever a situação, ele reconhece.
 >
 > Descrição descreve o gatilho, não a função. Anota essa.
 

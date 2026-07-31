@@ -8,32 +8,29 @@
 
 - [ ] Deck aberto no slide 1
 - [ ] Claude aberto com a área de Skills visível
-- [ ] [`recursos/exemplo-SKILL.md`](../recursos/exemplo-SKILL.md) aberto no
-      editor, fonte 16pt ou maior (é a mesma skill que você escreve no vídeo B)
-- [ ] **Skill da demonstração escolhida e ensaiada** — veja abaixo
+- [ ] **Skill `resumo-reuniao` instalada na conta de gravação** — veja abaixo
+- [ ] [`recursos/skill-demo-resumo-reuniao/SKILL.md`](../recursos/skill-demo-resumo-reuniao/SKILL.md)
+      aberto no editor, fonte 16pt ou maior
+- [ ] [`recursos/anotacoes-reuniao.md`](../recursos/anotacoes-reuniao.md) copiado
+      em bloco de notas
 
-### Qual skill usar na demonstração
+### A skill da demonstração
 
-Use uma **skill de criação de documento** (apresentação ou planilha): ela ativa
-sozinha a partir do pedido, que é o ponto da cena, e o resultado é visível.
+Está pronta no repositório, em
+[`recursos/skill-demo-resumo-reuniao/`](../recursos/skill-demo-resumo-reuniao/).
+Instale na conta que você usa para gravar — o
+[README da pasta](../recursos/skill-demo-resumo-reuniao/README.md) tem o passo a
+passo para claude.ai e para o Claude Code.
 
-**Ensaie antes de gravar** com este prompt:
+A mesma skill serve às duas cenas: na 5 ela roda, na 6 você abre o arquivo dela.
 
-```
-Monta uma apresentação de 5 slides explicando para a equipe comercial
-o que muda com a adoção de IA no atendimento ao cliente.
-```
+**Ensaie antes de gravar.** Cole as anotações precedidas de *"Resume essa reunião
+pra mim."* Deu certo se vier nas três seções com tabela de pendências; deu errado
+se vier texto corrido.
 
-Alternativa, se essa não ativar:
-
-```
-Gera uma planilha de controle de horas por projeto, com uma aba de
-lançamentos e uma aba de resumo mensal por colaborador.
-```
-
-Se nenhuma ativar sozinha, **pule a demonstração** e vá do slide 3 direto para
-o slide 4. Chamar a skill pelo nome destrói o argumento da cena, que é
-justamente ela entrar sem ser chamada.
+Se não ativar de jeito nenhum, **pule a cena 5** e vá do slide 3 direto ao slide
+4. Chamar a skill pelo nome destrói o argumento da cena, que é justamente ela
+entrar sem ser chamada.
 
 ---
 
